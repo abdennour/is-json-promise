@@ -1,7 +1,7 @@
 import {
  IsJSON
 } from '../src/safe';
-
+import '../src';
 import expect from 'expect';
 import sinon from 'sinon';
 

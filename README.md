@@ -1,7 +1,7 @@
 # Use
 
 ```js
-import from 'is-json-promise';
+import 'is-json-promise';
 
 String.IsJSON(`iam here`)
    .then((object) => console.info(object))
@@ -10,7 +10,7 @@ String.IsJSON(`iam here`)
 or
 
 ```js
-import from 'is-json-promise';
+import 'is-json-promise';
 
 String.IsJSON(`{"welcome":"Hello"}`)
    .then((object) => console.info(object)) // promise will run "then"
