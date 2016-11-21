@@ -1,6 +1,6 @@
 {
   "name": "is-json-promise",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check if string is JSON basing on PROMISE instead of TRY-CATCH",
   "main": "index.js",
   "scripts": {
