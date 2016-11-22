@@ -4,6 +4,7 @@
 
 ```js
 import 'is-json-promise';
+// or: require('is-json-promise')
 
 String.IsJSON(`iam here`)
    .then((object) => console.info(object))
@@ -25,6 +26,7 @@ It will not extend the `String` class with a static method , but it will give yo
 
 ```js
 import {IsJSON} from 'is-json-promise/safe';
+//or: const {IsJSON}= require("is-json-promise/safe");
 
 IsJSON(`{"welcome":"Hello"}`)
    .then((object) => console.info(object)) // promise will run "then"
