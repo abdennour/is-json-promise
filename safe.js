@@ -1,1 +1,1 @@
-require('./lib/safe');
+module.exports= require('./lib/safe');
